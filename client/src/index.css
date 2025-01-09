@@ -1,7 +1,113 @@
-:root {
-  --bg: #282c34;
-  --header: #fff;
-  --link: #61dafb;
-  --text: hsla(0, 0%, 100%, 0.88);
+main {
+  background-image: url("https://sweetsfromthesoul.com/cdn/shop/products/puppypawprintsstencil1.png?v=1680034379");
 }
 
+.container {
+  border: 2px dotted;
+  columns: 2;
+  background-color: beige;
+  border-color: lightskyblue;
+  font-family: 'Permanent Marker';
+  max-height: 750px;
+}
+
+.image {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.navbar {
+  border: 2px solid;
+  border-color: lightskyblue;
+  text-align: center;
+  background-color: beige;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.nav-link {
+  border: 1px solid;
+  border-color: lightskyblue;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: lightskyblue;
+}
+
+.openertitle {
+  text-align: center;
+  border: 2px solid;
+  background-color: beige;
+  border-color: lightskyblue;
+  font-family: 'Permanent Marker';
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 650px 650px;
+}
+
+.logoimg {
+  margin-left: 540px;
+  border: 1px solid;
+  border-color: lightskyblue;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+
+.review-list{
+  columns: 1;
+  margin-left: 325px;
+}
+
+.clienttitle {
+  font: bold;
+  text-align: center;
+  font-size: 50px;
+}
+
+.reviewtitle {
+  margin-left: 55px;
+  font: bold;
+  font-size: 50px;
+}
+
+.servicereviews {
+  border: 1px solid;
+  background-color: lightskyblue;
+  color: black;
+}
+
+.newreview {
+  border: 2px solid lightskyblue;
+  text-align: center;
+  margin-left: 22%;
+  margin-right: 25%;
+  background-color: beige;
+}
+
+.newpet {
+  border: 2px solid lightskyblue;
+  text-align: center;
+  margin-left: 22%;
+  margin-right: 25%;
+  background-color: beige;
+}
+
+.input-pets {
+  text-align: center;
+}
+
+.service-form {
+  border: 2px solid lightskyblue;
+  text-align: center;
+  margin-left: 22%;
+  margin-right: 25%;
+  background-color: beige;
+}
+
+.input-service {
+  text-align: center;
+}
