@@ -14,10 +14,6 @@ from config import app, db, api
 from models import Pet, Review, Service
 
 
-@app.route('/')
-def index():
-    return '<h1>Project Server</h1>'
-
 
 class Pets(Resource):
     def get(self):
