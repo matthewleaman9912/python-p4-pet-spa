@@ -10,6 +10,8 @@ function NewPet ({ onPetSubmit }) {
           .min(2, 'Name must be at least 2 characters long'),
         age: yup.number()
           .required('Pets age is required')
+          .positive()
+          .integer()
           .max(15),
         species: yup.string()
           .required('Pets species is required'),
